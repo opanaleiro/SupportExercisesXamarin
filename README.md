@@ -11,4 +11,4 @@ Para comenzar a realizarlos:
 - Posteriormente hacer un push.
 - Finalmente hacer un PullRequest del mismo hacía este repositorio para poder comprobar la corrección.
 
-Puedes ver un tutorial con imagenes aquí.
+Puedes ver un tutorial con imagenes aquí. https://github.com/PMMCourse/Documentacion/wiki/Crear-ejercicio
