@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_2.Android", "Ejercicio_2\Ejercicio_2.Android\Ejercicio_2.Android.csproj", "{B107E359-5565-4CDF-A02D-35D1106DC2B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_2", "Ejercicio_2\Ejercicio_2\Ejercicio_2.csproj", "{47B50A24-1FF6-4D3E-973A-97F377121334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_2", "Ejercicio_2\Ejercicio_2\Ejercicio_2.csproj", "{47B50A24-1FF6-4D3E-973A-97F377121334}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
