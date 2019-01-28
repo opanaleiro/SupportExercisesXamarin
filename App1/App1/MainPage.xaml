@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"  
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+                 xmlns:local="clr-namespace:MasterDetailsPage"  
+                 x:Class="MasterDetailsPage.MainPage" Title="I am master" MasterBehavior="Popover" BackgroundColor="Cyan">
+
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="Gray" Title="Master">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="Master page Menu"></Label>
+                    <Button Text="Add Employee" BackgroundColor="Yellow" Clicked="Button_Clicked"></Button>
+                    <Button Text="List Employee" BackgroundColor="Yellow" Clicked="Button_Clicked2"></Button>
+                    <Button Text="About Us" BackgroundColor="Yellow" Clicked="Button_Clicked3"></Button>
+                    <Button Text="Contact" BackgroundColor="Yellow" Clicked="Button_Clickded4"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage Padding="10">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="Detail Page"></Label>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>  
